@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!--Anthony Lacy wrote this -->
+	<html>
+		<head>
+			<meta name="Author" content="Anthony Lacy">
+			<meta name="Date" content="August 30, 2016">
+			<meta name="AssignmentNumber" content="2">
+			<meta name="ACU Username" content="all11d">
+			<meta name="Major" content="Information Technology">
+			<meta name="Hours to complete assignment" content="8 hours">
+			<title> Assignment 2 HTML Form Elements and Extras </title>
+		</head>
+		<body>
+		<div>
+			<form action="http://www.answers.com/example.php" method="get">
+				First Name:
+					<input type="text" name="FirstName" />
+					<br>
+					<br>
+				Last Name: 
+					<input type="text" name="LastName" />
+					<br>
+					<br>
+				What do you think about this text area? <br>
+					<textarea name="comments" cols="20" rows="4"> Enter what you think </textarea>
+					<br>
+					<br>
+				What is your single answer: <br>
+					<input type="radio" name="answer" value="answer1" />
+				Answer 1 
+					<input type="radio" name="answer" value="answer2" />
+				Answer 2 
+					<input type="radio" name="answer" value="answer3" />
+					<br>
+					<br>
+				What do you like to do in your time of relaxation?:
+					<input type="checkbox" name="freetime" value="VideoGames" /> Video Games 
+					<input type="checkbox" name="freetime" value="Read" /> Read
+					<input type="checkbox" name="freetime" value="WatchNetflix" />Watch Netflix 
+					<br>
+					<input type="text" name="freetime" value="Other" />
+					<br>
+					<br>
+				Dropdown Box?
+					<select name="Dropdown">
+						<option value="Choice1">Choice1</option>
+						<option value="Choice2">Choice2</option>
+						<option value="Choice3">Choice3</option>
+					</select>
+					<br>
+					<br>
+				Do you do anything?
+				<br>
+					<select name="anything" size="3" multiple="multiple">
+						<option value="anything1">Anything1</option>
+						<option value="anything2">Anything2</option>
+						<option value="anything3">Anything3</option>
+					</select>
+				<br>
+				<br>
+				Upload Your Favorite Picture
+				<br>
+				<br>
+					<input type="file" name="picture" /><br>
+					<input type="submit" value="Upload" />
+				<br>
+				<br>
+				Join our email list:
+					<input type="text" name="email" />
+					<input type="submit" name="list" value="Email List" />
+					<br>
+					<br>
+				<button><img src="images/add.gif" alt="Add" width="10" height="10" />Add</button>
+				<input type="hidden" name="bookmark" value="lyrics" />
+				<br>
+				<br>
+				<label>Classification: <input type="text" name="classification" /></label>
+					<br>
+				Marital Status
+					<input id="married" type="radio" name="maritalstatus" value="m">
+					<label for="married">Married</label>
+					<input id="single" type="radio" name="maritalstatus" value="s">
+					<label for="single">Single</label>
+				<fieldset>
+					<legend>Address</legend>
+					<label>Street Address:<br />
+						<input type="text" name="street" /></label><br />
+					<label>City:<br />
+						<input type="text" name="city" /></label><br />
+					<label>Zip Code:<br />
+						<input type="text" name="zip" /></label><br />
+				</fieldset>	
+				<br>
+				<br>
+				
+				<label for="married">Graduation Date:</label>
+				<input type="date" name="Graduate" />
+				<input type="submit" value="Submit" />
+				<br>
+				<br>
+				<input type="email" name="email" />
+				<input type="submit" value="Submit" />
+				<br>
+				<br>
+				Enter your Assignment URL:
+					<input type="url" name="website" />
+					<input type="submit" value="Submit" />
+				<br>
+				<br>
+				Looking for Something:
+					<input type="search" name="search" />
+					<input type="submit" name="Search" />
+				<br> 
+				<br>
+			</form>
+			<iframe 
+				src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8006.406305302063!2d-99.70601480491777!3d32.46522370703182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1472706622383" 
+				width="400" height="300">
+			</iframe>
+		</div>
+		<video src="videos/YouareUmasou.mp4" poster="images/dinosaur.jpg" 
+			width="100" height="100"
+			preload 
+			controls 
+			loop>
+		</video>
+		<div>
+			<audio src="music/Wildcats.mp3" controls autoplay>
+			</audio>
+		</div>
+		</body>
+	</html>	

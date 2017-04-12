@@ -1,0 +1,221 @@
+<!-- Name: John Wolfe.  Date: 08/30/16 - 08/31/16.  Assignment Number: 2.  ACU Username: jbw14a.  Major: Information Tehnology.  Number of Hours to complete assignment: 5 hours -->
+
+
+
+<!DOCTYPE html>
+<html>
+
+<style>
+h1 {
+	text-align: center;
+	font-style: italic;
+	font-size: 75px;
+	font-family: "Monaco", "Times New Roman";	
+}
+
+h2 {
+	text-align: center;
+	font-style: italic;
+	font-size: 45px;
+	font-family: "Veranda", "Times New Roman";
+}
+
+h3 {
+	text-decoration: underline;
+	font-style: italic, bold;
+	font-size: 25px;
+	font-family: "Helvetica", "Times New Roman";
+}
+
+p  {
+	font-family: "Veranda", "Times New Roman";
+}
+
+
+textarea {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
+</style>
+
+
+
+
+<head>
+	<title>Wolfeman Coffee Shop</title>
+	<meta name="description"
+		content="An upscale Coffee shop with a superb blend"/>
+	<meta name="keywords"
+		content="Coffee, Upscale" />
+	<meta name="robots"
+		content="nofollow" />
+	<meta http-equiv="author"
+		content="John Wolfe" />
+	<meta http-equip="pragma"
+		content="no-cache" />
+	<meta http-equip="expires"
+		content="Wed, 31 Aug 2016 23:59:59 GMT" />
+</head>
+<body>
+
+<h1> Wolfeman Coffee </h1>
+<body bgcolor="#593C1F">
+
+<center><img src="coffee-wallpaper.jpg" alt="Picture of Coffee being brewed"></center>
+
+<br/>
+
+<u><p align="center"> Rewards Member Login</p></u>
+<p align="center">Username:
+	<input type="text" name="username" size="15" maxlength="30" />
+</p>
+
+<p align="center">Password:
+	<input type="text" name="username" size="15" maxlength="30" />
+</p>
+
+<br/>
+
+
+<h2>Menu</h2>
+
+<center><p> Please select which type of coffee(s) you would like to purchase </center>
+
+<div id="Coffee_Selections">
+<h3> Coffee </h3>
+<br />
+<input type="checkbox" name="service" 
+	value="Brewed Coffee $4"/> Brewed coffee $4
+<input type="checkbox" name="service" 
+	value="Misto $7" /> Misto $7
+<input type="checkbox" name="service" 
+	value="Americano $9" /> Americano $9
+
+<h3> Tea </h3>
+<br />
+<input type="checkbox" name="service" 
+	value="Hot Tea $3" /> Hot Tea $3
+<input type="checkbox" name="service" 
+	value="Cold Tea $4" /> Cold Tea $4
+<input type="checkbox" name="service" 
+	value="Tea with Lemonade $6" /> Tea with Lemonade $6
+<input type="checkbox" name="service" 
+	value="Chai Latte $7" /> Chai Latte $7
+
+<h3> Fraps </h3>
+<br />
+<input type="checkbox" name="service" 
+	value="Non Coffee (Vanilla Bean) $8" /> Non Coffee (Vanilla Bean) $8
+<input type="checkbox" name="service" 
+	value="Coffee Base (Mocha) $9" /> Coffee Base (Mocha) $9
+
+
+<h3> Lattes </h3>
+<br />
+<input type="checkbox" name="service" 
+	value="Unflavored $7" /> Unflavored  $7
+<input type="checkbox" name="service" 
+	value="Cappucino $7" /> Cappucino  $7
+<input type="checkbox" name="service" 
+	value="Flavored (Hazelnut) $8" /> Flavored (Hazelnut)  $8
+<input type="checkbox" name="service" 
+	value="Carmel Maciato $9" />Carmel Macchiato  $9
+
+
+<h3> Hot Chocolate </h3>
+<br />
+<input type="checkbox" name="service" 
+	value="Regular $6" /> Regular  $6
+<input type="checkbox" name="service" 
+	value="Salted Caramel $7" /> Salted Caramel  $7
+
+
+<h3> Mocha </h3>
+<br />
+<input type="checkbox" name="service" 
+	value="Regular $6" /> Regular  $6
+<input type="checkbox" name="service" 
+	value="Salted Caramel $8" />Salted Caramel  $8
+
+
+<h3> Extra </h3>
+<br />
+<input type="checkbox" name="service" 
+	value="Additional Flavor $3" /> Additional Flavor  $3
+<input type="checkbox" name="service" 
+	value="Additional shot $4" />Additional Shot  $4
+
+</p>
+</div>
+
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+<div id="Video">
+<center><p>A short video about how coffe is made </p>
+<center><video width="400" height="300" controls alt="video about how coffee is made">
+			<source src="How coffee is made.mp4" type="video/mp4">
+			<source src="How coffee is made.mp4.ogg" type="video/ogg">
+			Your browser does not support this video tag 
+		</video>
+</center>
+
+
+
+</div>
+
+
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+<div id="Reviews"
+<p align="center"> Submit a review of our drinks. Your response is greatly appreciated! </p>
+<textarea name="comments" cols="50" rows="10">Enter your review...</textarea>
+</div>
+
+
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+<div id="map">
+
+<center><p>Find our location!</p></center>
+<center><iframe 
+	width="450"
+	height="350"
+	src="https://www.google.com/maps/place/Monks+Coffee+Shop/@32.4509823,-99.736132,17z/data=!3m1!4b1!4m5!3m4!1s0x86568e182b701c8d:0x8bca2b3b37fe353b!8m2!3d32.4509823!4d-99.7339433"
+	alt="Google Map Location of our Shop">
+</iframe></center>
+
+
+</div>
+
+
+
+
+
+
+
+<div id="Subscriptions">
+
+<center><p>Subscribe to our Email List and get Exclusive Offers</p></center>
+<center><input type="text" name="email" /></center>
+<center><input type="image" src="subscribe.png"
+	width="100" height="40"/></center>
+</div>
+
+</body>
+</html>
